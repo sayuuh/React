@@ -2,6 +2,7 @@
 import './App.css';
 import Condicional from './components/condicional.components/Condicional';
 import Lista from './components/lista.component/Lista';
+import Props from './components/props.component/Props';
 
 function App() {
   
@@ -11,6 +12,8 @@ function App() {
       <Condicional /> 
       <h1>Aula de Lista 24/01/23</h1>
       <Lista />
+      <h1>Aula de Props 25/01/23</h1>
+      <Props /> 
     </div>
   );
 }
