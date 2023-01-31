@@ -1,0 +1,62 @@
+h4{
+    font-size: 2em;
+    background-color: cadetblue;
+    color: red;
+}
+
+.text-justify{
+    text-align: justify;
+    font-size: 1.2em;
+}
+
+.large{
+    font-size: 2em;
+}
+
+div {
+    padding: 10px0;
+    margin: 10px 0px;
+}
+
+span{
+    margin: 20px;
+}
+
+.conectado{
+    padding: 10px;
+    background-color: rgb(105, 240, 135);
+
+}
+
+.desconectado{
+    padding: 10px;
+    background-color: rgb(250, 104, 104);
+}
+
+button{
+    padding: 5px;
+    background-color: rgb(56, 170, 41);
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+
+.desconectado button{
+    padding: 5px;
+    background-color: rgb(56, 170, 41);
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+
+.conectado button{
+    padding: 5px;
+    background-color: rgb(163, 22, 22);
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+

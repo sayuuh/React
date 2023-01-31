@@ -3,6 +3,7 @@ import {useEffect, useState} from 'react'
 import Escola from "./Escola"
 import Produto from "./Produto"
 import Children from "./Children"
+import Button from "./Button"
 
 const alunos = [
     {
@@ -79,12 +80,14 @@ const Props = () => {
         <div>
             <h2>Props</h2>
             <Nome nome='Sayumi' sobrenome='Hashimoto' age={idade}/>
-            <button onClick={() => setIdade(idade + 1)}>Idade</button>
+            {/* <button onClick={() => setIdade(idade + 1)}>Idade</button> */}
+            <Button value='Add Idade' evento={() => setIdade(idade + 1)} classe="green"/>
             <br />
-            <button onClick={() => setStatus(!status)}>
-                {status ? 'Remover' : 'Exibir'}
-            </button>
 
+            {/* <button onClick={() => setStatus(!status)}>
+                {status ? 'Remover' : 'Exibir'}
+            </button> */}
+            <Button value={status ? 'Remover' : 'Exibir'} evento={() => setStatus(!status)} classe="red"/>
             {status && <Escola turma={turma} alunos={alunos}/>}
 
             {
