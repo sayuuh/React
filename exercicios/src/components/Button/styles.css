@@ -1,0 +1,8 @@
+.default-button{
+    padding: 5px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: 1px solid rgb(104, 145, 223);
+    cursor: pointer;
+    height: fit-content;
+}

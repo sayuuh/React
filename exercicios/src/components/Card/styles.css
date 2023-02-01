@@ -1,0 +1,15 @@
+.default-card{
+    display: flex;
+    padding: 8px 5px;
+    
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bg-color-default{
+    background-color: rgb(189, 187, 187);
+}
+
+.bg-color-active{
+    background-color: rgb(14, 184, 65);
+}
