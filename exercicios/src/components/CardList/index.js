@@ -1,13 +1,17 @@
+import { useState } from "react"
 import Card from "../Card"
 import "./styles.css"
 
-const CardList = () => {
+const CardList = ({list}) => {
     return(
         <ul className="card-list">
-            <Card data="2022-01-30" tarefa="Estudar"/>
-            <Card data="2022-01-30" tarefa="Trabalhar"/>
+            {list.map((t) => (
+            <Card data={t.data} tarefa={t.tarefa}/>
+
+            ))}
         </ul>       
     )
 }
 
 export default CardList
+
