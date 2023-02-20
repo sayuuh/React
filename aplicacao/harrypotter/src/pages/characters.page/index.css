@@ -1,0 +1,53 @@
+.characters{
+    width: 100%;
+    padding: 20px 0px;
+}
+
+.characters .card-character{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+.characters .card-character div{
+    width: 23%;
+    height: 400px;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.characters .card-character div:hover{
+    filter:drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.486));
+}
+.characters .card-character div .image{
+    width: 80%;
+    height: 300px;
+    margin: auto;
+}
+.characters .card-character div .image:hover > img{
+    transform: scale(1.3);
+}
+.characters .card-character div .image img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: 0px 0px;
+    transition: all ease-in-out 0.5s;
+}
+.characters .card-character div .info{
+   width: 70%;
+   height: 100px;
+   margin: auto;
+   padding: 10px 5px;
+   background-color: rgba(250, 250, 250, 0.979);
+}
+
+.characters .card-character div .info h3{
+   text-align: center;
+   line-height: 0%
+}
+.characters .card-character div .info P{
+   text-align: left;
+   line-height: 50%
+}
